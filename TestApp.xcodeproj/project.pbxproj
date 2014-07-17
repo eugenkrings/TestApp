@@ -21,6 +21,8 @@
 		452467AB197757D700217847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4524678D197757D700217847 /* UIKit.framework */; };
 		452467B3197757D700217847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 452467B1197757D700217847 /* InfoPlist.strings */; };
 		452467B5197757D700217847 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452467B4197757D700217847 /* TestAppTests.m */; };
+		452467C11977736100217847 /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 452467BF1977736100217847 /* lock@2x.png */; };
+		452467C21977736100217847 /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 452467C01977736100217847 /* user@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		452467B0197757D700217847 /* TestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
 		452467B2197757D700217847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		452467B4197757D700217847 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
+		452467BF1977736100217847 /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
+		452467C01977736100217847 /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				4524679F197757D700217847 /* EKSViewController.m */,
 				452467A1197757D700217847 /* Images.xcassets */,
 				45246790197757D700217847 /* Supporting Files */,
+				452467BE1977736100217847 /* Images */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -150,6 +155,15 @@
 				452467B1197757D700217847 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		452467BE1977736100217847 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				452467BF1977736100217847 /* lock@2x.png */,
+				452467C01977736100217847 /* user@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452467C11977736100217847 /* lock@2x.png in Resources */,
+				452467C21977736100217847 /* user@2x.png in Resources */,
 				452467A2197757D700217847 /* Images.xcassets in Resources */,
 				45246794197757D700217847 /* InfoPlist.strings in Resources */,
 				4524679D197757D700217847 /* Main.storyboard in Resources */,
@@ -380,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
